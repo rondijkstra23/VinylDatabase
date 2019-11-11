@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"VinylplatendbContext","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":false,"OutputPath":null,"ProjectRootNamespace":"RecordDB","SelectedToBeGenerated":0,"Tables":[{"HasPrimaryKey":true,"Name":"dbo.vinylplaten"}],"UseDatabaseNames":false,"UseFluentApiOnly":true,"UseHandleBars":false,"UseInflector":true}

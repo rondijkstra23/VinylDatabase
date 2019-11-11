@@ -1,0 +1,16 @@
+﻿@model RecordDatabaseOpnieuw.Models.VinylplatenModel
+@{
+    ViewData["Title"] = "VinylplatenModel";
+}
+
+    <tr class="row">
+        <td><img src="~/AfbeeldingenVinyl/@Model.Afbeelding" /></td>
+        <td class="cell">@Model.Artiest</td>
+        <td class="cell">@Model.Album</td>
+        <td class="cell">@Model.Releasedatum</td>
+        <td class="cell">@Model.Genre</td>
+        <td class="cell">@Html.CheckBoxFor(m => m.InBezit.Value)</td>
+        <td class="cell">@Html.ActionLink("Edit", "Edit", "Home", new { vinylID = Model.Vinyl_ID }, null)</td>
+        <td class="cell">@Html.ActionLink("Delete", "Delete", "Home", new { vinylID = Model.Vinyl_ID }, null)</td>
+
+    </tr>

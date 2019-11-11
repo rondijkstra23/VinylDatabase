@@ -1,0 +1,22 @@
+﻿@model RecordDatabaseOpnieuw.Models.VinylplatenModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 id="titelCreate">Create new vinyl</h1>
+
+
+@using (Html.BeginForm("Create"))
+{
+
+    @Html.EditorForModel()
+
+    <div class="form-group">
+        <input type="submit" value="Create vinyl" class="buttoncreate" />
+    </div>
+
+
+}
+
+
+

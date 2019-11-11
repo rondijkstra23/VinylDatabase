@@ -1,0 +1,8 @@
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\bin\Debug\netcoreapp3.0\RecordDB.deps.json
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\bin\Debug\netcoreapp3.0\RecordDB.dll
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\obj\Debug\netcoreapp3.0\RecordDB.csprojAssemblyReference.cache
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\obj\Debug\netcoreapp3.0\RecordDB.AssemblyInfoInputs.cache
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\obj\Debug\netcoreapp3.0\RecordDB.AssemblyInfo.cs
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\bin\Debug\netcoreapp3.0\RecordDB.pdb
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\obj\Debug\netcoreapp3.0\RecordDB.dll
+C:\Users\rondi\source\repos\RecordDatabaseOpnieuw\RecordDB\obj\Debug\netcoreapp3.0\RecordDB.pdb

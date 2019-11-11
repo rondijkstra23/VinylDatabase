@@ -1,0 +1,18 @@
+﻿@model RecordDatabaseOpnieuw.Models.VinylplatenModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h5>Are you sure you want to delete this?</h5>
+
+@using (@Html.BeginForm("Delete", "Home"))
+{
+    @Html.EditorForModel()
+
+    <div>
+        <input type="submit" value="Delete vinyl" class="buttondelete"/>
+    </div>
+}
+

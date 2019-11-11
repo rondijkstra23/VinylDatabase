@@ -1,0 +1,16 @@
+﻿@model RecordDatabaseOpnieuw.Models.VinylplatenModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 id="titleedit">Edit your vinyl</h1>
+
+@using (@Html.BeginForm("Edit", "Home"))
+{
+    @Html.EditorForModel()
+
+    <div>
+        <input type="submit" value="Edit vinyl" class="buttonedit" />
+    </div>
+}
+

@@ -1,0 +1,453 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: white;
+}
+
+body {
+    background-color: #BCD0B1;
+    background-size: cover;
+}
+
+.wrapper {
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    position: absolute;
+    top: 50%;
+    transform: rotateX(75deg);
+}
+
+.vinyl {
+    animation: spin 3s linear infinite;
+    background-color: #111;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+}
+
+.wrapper:before {
+    background-color: #333;
+    border-radius: 50%;
+    bottom: 20px;
+    box-shadow: 0 50px 50px -25px #000;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.vinyl div {
+    border: solid 1px #222;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+}
+
+.center {
+    background-color: #600;
+    box-shadow: 0 0 25px 5px #900 inset;
+    color: #ccc;
+    font-size: 24px;
+    line-height: 3.3;
+    position: relative;
+    text-align: center;
+}
+
+    .center:before {
+        background-color: #eec;
+        border-radius: 50%;
+        box-shadow: 0 0 5px 0px #000 inset;
+        content: "";
+        height: 20px;
+        left: 50%;
+        margin-left: -10px;
+        margin-top: -10px;
+        position: absolute;
+        top: 50%;
+        width: 20px;
+    }
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg) rotateY(0deg);
+    }
+
+    25% {
+        transform: rotateZ(90deg) rotateY(20deg);
+    }
+
+    75% {
+        transform: rotateZ(270deg) rotateY(-20deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg) rotateY(0deg);
+    }
+}
+
+#titel {
+    color: black;
+    font-family: Poppins-Bold;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 58px;
+    margin: 0 0 58px;
+    text-align: center;
+}
+
+
+/*tabel*/
+.table {
+    width: 100%;
+    display: table;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .table {
+        display: block;
+    }
+}
+
+.row {
+    display: table-row;
+    background: #fff;
+}
+
+.header {
+    color: #ffffff;
+    background: green;
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .header {
+        padding: 0;
+        height: 0px;
+    }
+
+        .header .cell {
+            display: none;
+        }
+
+    .row .cell:before {
+        font-family: Poppins-Bold;
+        font-size: 12px;
+        color: #808080;
+        line-height: 1.2;
+        text-transform: uppercase;
+        font-weight: unset !important;
+        margin-bottom: 13px;
+        content: attr(data-title);
+        min-width: 98px;
+        display: block;
+    }
+}
+
+.cell {
+    display: table-cell;
+}
+
+@media screen and (max-width: 768px) {
+    .cell {
+        display: block;
+    }
+}
+
+.row .cell {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    font-weight: unset !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.header .cell {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset !important;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.row .cell:nth-child(1) {
+    width: 360px;
+    padding-left: 40px;
+}
+
+.row .cell:nth-child(2) {
+    width: 160px;
+}
+
+.row .cell:nth-child(3) {
+    width: 250px;
+}
+
+.row .cell:nth-child(4) {
+    width: 190px;
+}
+
+
+.table, .row {
+    width: 100% !important;
+}
+
+    .row:hover {
+        background-color: rgb(215, 245, 216);
+        cursor: pointer;
+    }
+
+@media (max-width: 768px) {
+    .row {
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 18px;
+        padding-top: 30px;
+        padding-right: 15px;
+        margin: 0;
+    }
+
+        .row .cell {
+            border: none;
+            padding-left: 30px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+            .row .cell:nth-child(1) {
+                padding-left: 30px;
+            }
+
+        .row .cell {
+            font-family: Poppins-Regular;
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.2;
+            font-weight: unset !important;
+        }
+
+    .table, .row, .cell {
+        width: 100% !important;
+    }
+}
+
+
+
+
+/*form*/
+
+.form-style-8 {
+    font-family: Poppins-Regular;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+    .form-style-8 h2 {
+        background: #4D4D4D;
+        text-transform: uppercase;
+        font-family: Poppins-Regular;
+        color: #797979;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 20px;
+        margin: -30px -30px 30px -30px;
+    }
+
+    .form-style-8 input[type="text"],
+    .form-style-8 input[type="date"],
+    .form-style-8 input[type="datetime"],
+    .form-style-8 input[type="email"],
+    .form-style-8 input[type="number"],
+    .form-style-8 input[type="search"],
+    .form-style-8 input[type="time"],
+    .form-style-8 input[type="url"],
+    .form-style-8 input[type="password"],
+    .form-style-8 textarea,
+    .form-style-8 select {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        display: block;
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        background: transparent;
+        margin-bottom: 10px;
+        font: 16px Arial, Helvetica, sans-serif;
+        height: 45px;
+    }
+
+    .form-style-8 textarea {
+        resize: none;
+        overflow: hidden;
+    }
+
+#titelCreate, #titleedit {
+    text-align: center;
+}
+
+#button {
+    font-family: Poppins-Regular;
+    color: #494949 !important;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px;
+    border: 2px solid white !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+    #button:hover {
+        font-family: Poppins-Regular;
+        color: #ffffff !important;
+        background: green;
+        border-color: green !important;
+        transition: all 0.4s ease 0s;
+    }
+
+.buttoncreate, .buttonedit {
+    position: absolute;
+    left: 560px;
+    bottom: 200px;
+    font-family: Poppins-Regular;
+    color: #494949 !important;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px;
+    border: 2px solid white !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.buttoncreate:hover, .buttonedit:hover {
+    font-family: Poppins-Regular;
+    color: #ffffff !important;
+    background: green;
+    border-color: green !important;
+    transition: all 0.4s ease 0s;
+}
+
+h1,h5 {
+    font-family: Poppins-Regular;
+    text-align: center;
+}
+
+h5 {
+    color: red;
+}
+
+img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.buttondelete {
+    position: absolute;
+    left: 560px;
+    bottom: 150px;
+    font-family: Poppins-Regular;
+    color: #494949 !important;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px;
+    border: 2px solid white !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.buttondelete:hover {
+    font-family: Poppins-Regular;
+    color: #ffffff !important;
+    background: darkred;
+    border-color: darkred !important;
+    transition: all 0.4s ease 0s;
+}

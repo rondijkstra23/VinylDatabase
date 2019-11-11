@@ -1,0 +1,35 @@
+﻿
+@model List<RecordDatabaseOpnieuw.Models.VinylplatenModel>
+
+@{
+    ViewData["Title"] = "Vinylplaten";
+}
+
+
+<h1>Vinyl database</h1>
+
+
+
+<table class="table">
+
+    <tr class="header">
+        <th class="cell"></th>
+        <th class="cell">Artist</th>
+        <th class="cell">Album</th>
+        <th class="cell">Release Date</th>
+        <th class="cell">Genre</th>
+        <th class="cell">In Possesion?</th>
+        <th class="cell"> Edit</th>
+        <th class="cell">Delete</th>
+
+    </tr>
+
+
+    @Html.DisplayForModel()
+
+</table>
+<br />
+
+
+@Html.ActionLink("Create vinyl", "Create", "Home", "", new { id = "button" })
+
